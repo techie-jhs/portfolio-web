@@ -70,6 +70,10 @@
                   "maximumError": "4kb"
                 }
               ],
+              "assets": [
+                "src/assets",
+                "src/.htaccess"
+              ],
               "outputHashing": "all"
             },
             "development": {
