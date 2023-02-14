@@ -25,5 +25,5 @@ jobs:
           server: ftp.josiah.tech
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: /
+          server-dir: /public_html/
           local-dir: ./dist/portfolio-web/
