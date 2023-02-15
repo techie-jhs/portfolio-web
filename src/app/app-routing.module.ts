@@ -4,8 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadComponent: () => import('./components/home/home.component').then(c => c.HomeComponent),
-    title: 'Home',
+    redirectTo: '/valentines-day',
+    pathMatch: "full"
   },
   {
     path: 'valentines-day',
